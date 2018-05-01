@@ -113,74 +113,56 @@ nav span {
   margin: 10px;
 }
 
-/* Locations Section */
+/* Information Section */
 
-.locationsmain {
+.information {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 1200px;
-  height: 500px;
+  height: 700px;
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
-  margin: 40px;
 }
 
-.locationscontent {
+.locations {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 500px;
 }
 
-.locationtitle {
-  margin-bottom: 15px;
-}
-
-.locationlist {
+.shoplists {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-top: 15px;
 }
 
-.address {
+.shopinfo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;;
   align-items: center;
   margin: 0 20px;
   background-color: black;
   opacity: 1;
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 
-.address h3,
-.address h4, {
-  margin: 30 0;
-}
-
-.shop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 75px;
+.shopname {
+  padding-top: 10px;
+  height: 70px;
 }
 
 .straddress {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;;
+  justify-content:space-around;
   align-items: center;
-  height: 225px;
-  padding: 20px 0;
-}
-
-/* Footer section */
-
-.footer {
-  display: flex;
-  flex-direction: column;
+  height: 180px;
 }
 
 .contactinfo {
@@ -188,12 +170,9 @@ nav span {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  width: 1200px;
   height: 200px;
-  padding-top: 10px;
-}
-
-.contactname {
-  height: 70px;
+  background-color: black;
 }
 
 .contactnumbers {
@@ -201,10 +180,10 @@ nav span {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 130px;
+  height: 120px;
 }
 
-.copyright {
+.footer {
   text-align: left;
   width: 100%;
   padding-left: 20px;
