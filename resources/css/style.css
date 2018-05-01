@@ -124,6 +124,7 @@ nav span {
   height: 700px;
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
+  margin-top: 40px;
 }
 
 .locations {
