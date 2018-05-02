@@ -77,9 +77,10 @@ nav span {
 }
 
 .mission {
-  display: flex;
+/*  display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
   width: 100%;
   background-color: black;
 }
